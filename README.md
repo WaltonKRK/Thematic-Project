@@ -1,2 +1,2 @@
 # Thematic-Project
-Thematic Project for cars maker 
+Thematic Project for card maker 
