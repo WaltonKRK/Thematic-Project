@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crafty Cards | Regsiter</title>
+  <link href="/styles/register.css" rel="stylesheet">
+  <link href="/styles/navigation.css" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar">
+        <img src="/images/logo.png" alt="Crafty Cards Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="https://lttstore.com">Home</a></li>
+                <li><a href="https://lttstore.com">About</a></li>
+                <li><a href="https://lttstore.com">Create</a></li>
+                <li><a href="https://lttstore.com">Contact Us</a></li>
+                <li><a href="https://lttstore.com">Profile</a></li>
+            </ul>
+        </nav>
+    </div>
+<main>
+    <div id="register-container">
+        <h2>Register</h2>
+        <hr>
+        <input type="email" id="email" placeholder="Email">
+        <div class="error-message" id="email-error"></div>
+        <input type="password" id="password" placeholder="Password" autocomplete="new-password">
+        <div class="error-message" id="password-error"></div>
+
+        <div class="checkbox-container">
+            <div class="checkpass-box">
+                <label class="showpass">
+                    <input type="checkbox" id="show-password"> Show Password
+                </label>
+            </div>
+            <div class="checkbox-box">
+                <label>
+                    <input type="checkbox" id="terms" required> Accept&nbsp;<a href="https://lttstore.com">Terms and Conditions</a>
+                </label>
+                <label>
+                    <input type="checkbox" id="communications"> Receive&nbsp;<a href="https://lttstore.com">Additional Communications</a>
+                </label>
+
+            </div>
+        </div>
+
+        <div class="error-message" id="terms-error"></div>
+        <button onclick="register()">Register</button>
+    </div>
+</main>
+    <script src="/scripts/register.js"></script>
+</body>
+</html>
