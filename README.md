@@ -9,3 +9,4 @@ HENRY 24/02/2024 @ 05:11 {
     Added "navigation.css" |
   added "register.html"
 }
+look at xamp for a server hosted locally
