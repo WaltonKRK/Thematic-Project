@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color: darkgrey;
+}
+
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Adjust this value based on the height of your navbar */
+}
+
+#button-container {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#button-container button:hover {
+    background-color: #0056b3;
+}
+
+#canvas {
+    background-color: white;
+}
+#button-container button#deleteShape {
+    background-color: #dc3545;
+}
+
+#button-container button#deleteShape:hover {
+    background-color: #c82333;
+}
+#button-container button#addText {
+    background-color: #28a745;
+}
+
+#button-container button#addText:hover {
+    background-color: #218838;
+}
+#button-container input#colorPicker {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#button-container input#bgColorPicker,
+#button-container input#imageUpload {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
