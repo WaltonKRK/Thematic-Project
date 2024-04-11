@@ -132,7 +132,7 @@ function downloadImage() {
     var imgData = canvas.toDataURL('image/png');
     var link = document.createElement('a');
     link.href = imgData;
-    link.download = 'canvas.png';
+    link.download = 'CraftyCard.png';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
