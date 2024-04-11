@@ -99,6 +99,27 @@ document.getElementById('happyBirthday').addEventListener('click', function() {
         canvas.add(text);
     });
 });
+document.getElementById('congratulations').addEventListener('click', function() {
+    let text = new fabric.IText('Congratulations', {
+        left: canvas.width / 2,
+        top: 10,
+        fontFamily: 'Tangerine',
+        fill: '#000000',
+        fontSize: 50,
+        textAlign: 'center',
+        originX: 'center'
+    });
+
+    fabric.Image.fromURL('/inc/congratulations.png', function(img) {
+        img.set({
+            left: 0,
+            top: 0,
+        });
+        canvas.add(img);
+        canvas.bringToFront(img);
+        canvas.add(text);
+    });
+});
 document.getElementById('colorPicker').addEventListener('change', function(e) {
     let activeObject = canvas.getActiveObject();
     if (activeObject) {
