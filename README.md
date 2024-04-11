@@ -38,7 +38,7 @@ added happy birthday button to add an image and also text -template
 added congrats template with image and text 
 fixed mehaks attempt to make a template-sorta
 
-MEGA ISSUES CREATING A DOWNLOAD TO PDF AND SAVE TO IMAGE 
+Created a save to image function that actually works 
 
 
 ----------------------------------------------
