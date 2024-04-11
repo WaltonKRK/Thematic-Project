@@ -127,6 +127,16 @@ document.getElementById('colorPicker').addEventListener('change', function(e) {
         canvas.renderAll();
     }
 });
+function downloadImage() {
+    var canvas = document.getElementById('canvas'); // replace with your canvas id
+    var imgData = canvas.toDataURL('image/png');
+    var link = document.createElement('a');
+    link.href = imgData;
+    link.download = 'canvas.png';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
 /*WebFont.load({
     google: {
         families: ['Roboto', 'Open Sans', 'Lato', 'Oswald', 'Slabo 27px']
