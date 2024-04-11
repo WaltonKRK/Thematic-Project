@@ -35,6 +35,7 @@ added the nav bar created by henry to index.html to create page
 changed the background to light grey on create page to differentiate it from the canvas
 loaded most commonly used google fonts *5 of them with a web loader -issues with it running in create.js 
 added happy birthday button to add an image and also text -template 
+added congrats template with image and text 
 
 MEGA ISSUES CREATING A DOWNLOAD TO PDF AND SAVE TO IMAGE 
 
