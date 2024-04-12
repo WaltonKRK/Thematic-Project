@@ -17,6 +17,16 @@ HENRY 18/03/2024 @ 04:56 {
   Added "login.html"
 } ##AMMENDED PREVIOUS ITERATIONS TO ADD BOOTSTRAP FUNCTIONALITY
 
+HENRY 12/04/2024 @ 05:18 {
+  Updated "homepage.html" #edited the content to be more inline with our project and specific to our goals. Redirects to other pages have been added in the edited navbar and edited footers |
+  Updated "register.html" #added footer and added nav-bar links along with login redirect |
+  Updated "Login.html" #added footer and added nav-bar links along with register redirect |
+  Deleted "login.html" #obsolete |
+  Renamed "/fabric/index.html" -> "/fabric/index-old.html" |
+  Added "/fabric/index.html" |
+  Updated "inc" and "images" folder #Added meet the team pictures, testimony pictures and various other images
+  }
+
 -----------------------------
 KARRAN 
 created the create page using fabric.js and bootstrap
@@ -40,6 +50,7 @@ fixed mehaks attempt to make a template-sorta
 
 Created a save to image function that actually works 
 
+#Henry - Edited the index.html so that the design is more inline with the rest of the website. [Navbar, button layout, etc.]
 
 ----------------------------------------------
 look at xamp for a server hosted locally
