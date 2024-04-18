@@ -52,5 +52,7 @@ Created a save to image function that actually works
 
 #Henry - Edited the index.html so that the design is more inline with the rest of the website. [Navbar, button layout, etc.]
 
+KARRAN HENRY
+fixed footer to not be weird on different sized viewports 
 ----------------------------------------------
-look at xamp for a server hosted locally
+
